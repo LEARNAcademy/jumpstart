@@ -1,10 +1,10 @@
 # Jumpstart
 
-## Prep Materials
+### Prep Materials
 - [ Student Notes ](./Jumpstart%20Weekend%20Student%20Notes.pdf)
 - [ TA Handbook ](./TA%20Handbook.pdf)
 
-## Weekend Materials
+### Weekend Materials
 - [ Pair Programming Demo ](./pairing-demo.js)
 - [ Mom's Meatballs Lecture Example ](./moms-meatballs-lecture-example)
 - [ Master Build-Out of Treasure Hunt ](./treasure-hunt-build-out-example)
