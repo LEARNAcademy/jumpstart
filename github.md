@@ -33,7 +33,7 @@ Checking Private will not allow others to view your page.
 Skip creating the README for now. 
 Also skip other options.
 
-Click “Create repository”.
+Click `“Create repository”`.
 
 ## Step 3: Clone your repository.
 Be sure to have your GitHub Desktop open.
@@ -41,15 +41,17 @@ Be sure to have your GitHub Desktop open.
 ![Setup in Desktop](/images/img02_setup.png)
 Your repository page should now display options for connecting your project to the repository created in GitHub.
 
-Click "Set up in Desktop".
+Click `"Set up in Desktop"`.
+
+![Clone Repository](/images/img03_clone_repo.png)
 
 This should open up a modal in GitHub Desktop with the repository URL already populated.
-A Local Path is likely to already be populated as well. If not, click the "Choose..." button to indicate a place to create a new directory.
+A Local Path is likely to already be populated as well. If not, click the `"Choose..."` button to indicate a place to create a new directory.
 For simplicity sake, we'll indicate a path to your Desktop.
 Add `/{yourUsername}.github.io` at the end of the path.
 Doing this will create a directory on your Desktop with the correct name. 
 
-Click "Clone".
+Click `"Clone"`.
 
 Verify the folder with the name `{yourUsername}.github.io` is created on your Desktop.
 
@@ -69,18 +71,18 @@ Verify the files are recognized in GitHub Desktop.
 ![Verify changes in GitHub Desktop](/images/img04_verify_changes.png)
 Verify that `Current Repository: {yourUsername}.github.io`.
 Verify that `Current Branch: master` (this is like the master copy).
-Verify that there are files indicated in the Changes tab.
+Verify that there are files indicated in the `Changes` tab.
 
 Provide a summary of your changes.
 For example, "added files for website".
 
 “Committing" your changes is saving your changes. 
 
-Click "Commit to master" button.
+Click `"Commit to master"` button.
 
 “Publishing/Pushing" is uploading your changed files. 
 
-Click "Publish branch”. This uploads your changes to GitHub.
+Click `"Publish branch”`. This uploads your changes to GitHub.
 
 Verify your History tab to see the last commit is present.
 ![Verify history in GitHub Desktop](/images/img05_verify_history.png)
