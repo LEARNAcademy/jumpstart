@@ -1,0 +1,16 @@
+* {
+  font-family: 'Lobster', cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+#subheader {
+  text-align: center;
+  color: blue
+}
+
+#dice-image {
+  text-align: center;
+}
