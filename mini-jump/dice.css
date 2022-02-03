@@ -1,16 +1,90 @@
+/* CSS--cascading style sheet */
+
+/* html tags */
 * {
-  font-family: 'Lobster', cursive;
+  font-family: 'Lobster Two', cursive;
+}
+
+body {
+  background-color: rgb(188, 165, 190);
 }
 
 h1 {
   text-align: center;
 }
 
-#subheader {
-  text-align: center;
-  color: blue
+img, button {
+  display: block;
+  margin: 0 auto;
 }
 
-#dice-image {
+button {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: 6px solid black;
+  border-radius: 10px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+
+
+/* id */
+#subheader {
   text-align: center;
 }
+
+#dice {
+  background-color: antiquewhite;
+  width: 50px;
+  border: 5px solid black;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* class */
+.border {
+  background-color: black;
+  border-radius: 10px;
+  width: 50%;
+  height: auto;
+  font-size: 25px;
+  color: antiquewhite;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+/* button hover effect */
+button:hover, button:focus, button:active {
+  /* swap colors */
+  background-color: rgb(188, 165, 190);
+  font-style: bold;
+  font-size: 30px;
+  color: black;
+  /* displays a hand */
+  cursor: pointer; 
+}
+
+/* dice rotate animation */
+#dice-image, .dice {
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: 4;
+} 
+  @keyframes rotate {
+      0% {
+          transform: rotate(0);
+      }
+      100% {
+          transform: rotate(360deg);
+      }
+  }
