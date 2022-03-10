@@ -105,11 +105,12 @@ Code Editors and File Naming
 **look at a recipe online either google or use this link) (https://www.cookingclassy.com/meatball-recipe/**
 
 - While looking over the recipe, explain each of the basic parts that we will want to bring into our site. 
-  - Header 
-  - Br, hr
-  - Paragraph
-  - Image
-
+```html
+  - Header <header></header>
+  - Br, hr <br> & <hr>
+  - Paragraph <p></p>
+  - Image <img src="..." alt="...">
+```
 
 ## Setting up the tags
 ```html
@@ -175,7 +176,7 @@ for different steps of the cooking process.
 
 **no screen share**
 
-<hr>
+_________________________________________________________________________________________
 **TREASURE HUNT**
 
 Let’s stop here for now and start work on our Treasure Hunt projects 
