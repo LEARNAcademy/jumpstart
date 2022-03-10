@@ -1,6 +1,6 @@
 # HTML - Part One
 
-**no screen share**
+ **  no screen share  ** 
 
 What is computer programming?
 
@@ -16,7 +16,7 @@ History of HTML
 
 Let’s look at some HTML through Chrome!
 
-**yes screen share**
+ **  yes screen share  ** 
 
 What is a tag
 - Just a wrapper that tells our browser how to display content in a certain way. That means, generally, it has a starting tag that happens before our content and a closing tag, after the content.  
@@ -24,7 +24,7 @@ What is a tag
 
 
 
-**Send in slack** 
+ **  Send in slack  **  
 ```
 GENERAL RULE
    <tagname> Some Content </tagname>
@@ -33,7 +33,7 @@ GENERAL RULE
 
 ```
 
-**yes screen share**
+ ** yes screen share ** 
 - Look at W3 schools or MDN for all types of elements/tags
 
     https://www.w3schools.com/tags/default.asp
@@ -42,7 +42,7 @@ GENERAL RULE
 
 Code Editors and File Naming
 
-**Open up Atom and create a new file called index.html**
+ ** Open up Atom and create a new file called index.html ** 
 
 - In order to create a file in Atom we need to go to the top of our screen where it says file and scroll down to where it says “Save As” and we want to name this file index.html.
 "Index" is a specific word that the browser understands to mean "the first page".
@@ -56,7 +56,7 @@ Code Editors and File Naming
 ## Boilerplate 
 - Let’s put some HTML into a new document and actually open it in the browser
 
-**Use “html” shortcut**
+ ** Use “html” shortcut ** 
 
 - This is the underlying structure that every HTML document will always have.
 
@@ -80,7 +80,7 @@ Code Editors and File Naming
 
 - Or we can use the key binding of cmd + s for mac and ctrl + s for windows. 
 
-# Displaying the File in Chrome
+## Displaying the File in Chrome
 
 - In order to display the changes we are going to make we are going to need to connect our file to our chrome browser. 
 
@@ -88,10 +88,10 @@ Code Editors and File Naming
 
 - You have to be careful to grab the chrome symbol or else it won’t work. 
 
-# Headings
+## Headings
 - h1-h6
 
-**1 is biggest 6 is smallest - use Hello World to demonstrate each of the h’s**
+ ** 1 is biggest 6 is smallest - use Hello World to demonstrate each of the h’s ** 
 
   “In order to get the changes we’ve made to display we have to save our file and refresh the screen”
 
@@ -99,10 +99,10 @@ Code Editors and File Naming
 - And an h2 that says “The Best Meatball Recipe”
 
 
-# Planning
+## Planning
 - Let’s plan out what we want our meatball page to look like. Pieces of the page… 
 
-**look at a recipe online either google or use this link) (https://www.cookingclassy.com/meatball-recipe/**
+ ** look at a recipe online either google or use this link) (https://www.cookingclassy.com/meatball-recipe/ ** 
 
 - While looking over the recipe, explain each of the basic parts that we will want to bring into our site. 
 ```html
@@ -154,15 +154,17 @@ for different steps of the cooking process.
 ```
   
   
-# Image
+## Image
   - Image for small picture
   - add height attributes (not height and width)
   - Non-commercial use pictures
     - Google image search -> tools -> Creative Commons
     -  https://cdn.pixabay.com/photo/2021/02/14/07/07/fry-6013647_1280.jpg
-**<img> tag and introduce the src attribute**
+```html
+ ** <img> tag and introduce the src attribute ** 
+ ```
 
-# Attributes
+## Attributes
   - What is an attribute?
     - HTML attributes are a modifier of an HTML element type
     ```
@@ -172,12 +174,12 @@ for different steps of the cooking process.
       ```
   - Show how to create simple styles for different tags 
   
-  **Be sure to fill out the src attribute on the image tag and the alt attribute**
+   ** Be sure to fill out the src attribute on the image tag and the alt attribute ** 
 
-**no screen share**
+ ** no screen share ** 
 
 _________________________________________________________________________________________
-**TREASURE HUNT**
+ ** TREASURE HUNT ** 
 
 Let’s stop here for now and start work on our Treasure Hunt projects 
 
