@@ -24,19 +24,20 @@ What is a tag
 
 
 
-**send in slack** 
-
+**Send in slack** 
+```
 GENERAL RULE
    <tagname> Some Content </tagname>
       ^		                		^                                  
  Opening tag			      Closing tag
 
-
+```
 
 **yes screen share**
-Look at W3 schools or MDN for all types of elements/tags
-https://www.w3schools.com/tags/default.asp
-https://developer.mozilla.org/en-US/docs/Web/HTML
+- Look at W3 schools or MDN for all types of elements/tags
+
+    https://www.w3schools.com/tags/default.asp
+    https://developer.mozilla.org/en-US/docs/Web/HTML
 
 
 Code Editors and File Naming
@@ -92,14 +93,13 @@ Code Editors and File Naming
 
 **1 is biggest 6 is smallest - use Hello World to demonstrate each of the h’s**
 
-    “In order to get the changes we’ve made to display we have to save our file and refresh the screen”
+  “In order to get the changes we’ve made to display we have to save our file and refresh the screen”
 
 - Finish demo with an h1 that says “Moms Meatballs”
 - And an h2 that says “The Best Meatball Recipe”
 
 
 # Planning
-
 - Let’s plan out what we want our meatball page to look like. Pieces of the page… 
 
 **look at a recipe online either google or use this link) (https://www.cookingclassy.com/meatball-recipe/**
@@ -112,20 +112,24 @@ Code Editors and File Naming
 
 
 ## Setting up the tags
-
+```html
 <div>
   A div creates a division in our body and works really well as a container for other html elements. 
   We are going to use our div to contain our <p> tag.
 
-  **Add some lorem to the p tag**
+  Add some lorem to the p tag
  
   Lorem Ipsum is a kind of fake latin that developers use to hold as a placeholder until something more permanent can be created. It was created in the 1500s as a way to test printing presses
+```
 
-### List
-**UL Tag : meatball ingredients**
+## List
+```html
+<ul>:
+meatball ingredients
     A UL tag creates an unordered list which is perfect for setting out a list of ingredients needed for the meatballs
-    
-**LI Tag: for each ingredient.**
+
+<li>:
+for each ingredient.
     Ground beef
     Bread crumbs
     Milk
@@ -135,14 +139,18 @@ Code Editors and File Naming
     Onion, finely chopped
     One egg
 
-**OL tag: preparation steps**
+<ol>:
+preparation steps
     An OL tag creates a ordered list this will be useful for something like our steps to make the meatballs
 
-**LI tag: for different steps of the cooking process.**
+<li>:
+for different steps of the cooking process.
+
     Heat oven to 400^f
     Mix ingredients
     Form into balls
     Bake for 20 mins
+```
   
   
 # Image
@@ -156,15 +164,18 @@ Code Editors and File Naming
 # Attributes
   - What is an attribute?
     - HTML attributes are a modifier of an HTML element type
+    ```
       - <a href="https://www.w3schools.com">This is a link</a>
       - <img src="img_girl.jpg">
       - <p style="color:red">This is a paragraph.</p>
+      ```
   - Show how to create simple styles for different tags 
   
   **Be sure to fill out the src attribute on the image tag and the alt attribute**
 
 **no screen share**
-	
+
+<hr>
 **TREASURE HUNT**
 
 Let’s stop here for now and start work on our Treasure Hunt projects 
