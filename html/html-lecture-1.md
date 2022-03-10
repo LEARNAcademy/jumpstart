@@ -122,9 +122,10 @@ Code Editors and File Naming
   Lorem Ipsum is a kind of fake latin that developers use to hold as a placeholder until something more permanent can be created. It was created in the 1500s as a way to test printing presses
 
 ### List
-**<ul>: meatball ingredients**
+**UL Tag : meatball ingredients**
     A UL tag creates an unordered list which is perfect for setting out a list of ingredients needed for the meatballs
-**<li> for each ingredient.**
+    
+**LI Tag: for each ingredient.**
     Ground beef
     Bread crumbs
     Milk
@@ -133,23 +134,24 @@ Code Editors and File Naming
     Pepper
     Onion, finely chopped
     One egg
-**<ol>: preparation steps**
+
+**OL tag: preparation steps**
     An OL tag creates a ordered list this will be useful for something like our steps to make the meatballs
-**<li> for different steps of the cooking process.**
+
+**LI tag: for different steps of the cooking process.**
     Heat oven to 400^f
     Mix ingredients
     Form into balls
     Bake for 20 mins
   
   
-  # Image
+# Image
   - Image for small picture
   - add height attributes (not height and width)
   - Non-commercial use pictures
     - Google image search -> tools -> Creative Commons
     -  https://cdn.pixabay.com/photo/2021/02/14/07/07/fry-6013647_1280.jpg
 **<img> tag and introduce the src attribute**
-
 
 # Attributes
   - What is an attribute?
